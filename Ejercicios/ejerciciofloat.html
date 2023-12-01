@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejecicio float</title>
+    <style>
+        *{
+            margin:5px;
+        }
+        .rectangulo{
+            
+            height: 60px;
+            border: 2px solid black;
+            float: left;
+        }
+        .a{
+            width: 100%;
+            margin-top: 10px;
+            background-color: brown;
+            float: left;
+        }
+        .b{
+            background-color: aqua;
+            margin-top: -20px;
+            margin-left: 20px;
+            width: 80%;
+            float: left;
+        }
+        .c{
+            background-color: green;
+            clear:both;
+            width: 100%;
+            margin-top: 100px;
+            margin-bottom: -60px;
+        }
+        .d{
+            background-color: blueviolet;
+            width: 80%;
+            clear:both;
+            margin-top: -50px;
+            margin-left: 20px;
+
+        }
+        .e{
+            margin-top: 10px;
+            clear: right;
+            width: 50%;
+            height: 70px;
+        }
+        p{
+            margin-top: 0px;
+        }
+        .texto{
+            float: right;
+            margin-top: -40px;
+            margin-right: -500px;
+            background-color: blueviolet;
+            color: black;
+            font-size: 30px;
+        }
+       
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="rectangulo a">1</section> 
+        <section class="rectangulo d ">4</section>
+         <section class="rectangulo c " >3</section>
+         <section class="rectangulo b">2</section>
+       
+       
+        <section class="rectangulo e">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil asperiores quaerat ducimus possimus velit. Tenetur sit, eum enim animi repudiandae quos excepturi blanditiis porro laboriosam deserunt, in reprehenderit itaque nam!
+          </p>
+          <p class="texto">
+            TEXTO FIJO
+          </p>
+        </section>
+        
+        
+    </main>
+    
+</body>
+</html>

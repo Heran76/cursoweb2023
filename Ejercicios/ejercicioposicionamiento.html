@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento</title>
+        <style>
+              main{
+                border: 5px solid black;
+                height: 700px;
+                width: 50%;
+                box-shadow: 10px 10px  gray;
+                margin: 70px auto;
+                position: relative;
+              }
+          
+
+            .circulo_gris{
+                width: 100px;
+                height: 100px;
+                border:2px solid black;
+                border-radius: 50px;
+                box-shadow: 8px 0px rgb(175, 174, 174);
+                /*background-color: rgb(0 0 0/0.5);*/
+                background-image: linear-gradient(to right, rgb( 0 0 0/0.2), rgb(0 0 0/0.5));
+                position: absolute;
+                
+            }
+             .sup_izq{ 
+                top: 50PX;
+                left: 50px;
+             }
+            .sup_drcha{
+                top: 50PX;
+                right: 50px;
+            }
+             
+            .ba_izq{ 
+                bottom: 50PX;
+                left: 50px;
+             }
+             
+             .ba_drcha{
+                bottom: 50PX;
+                right: 50px;
+            }
+
+            .cuadrado{
+                width: 250px;
+                height: 250px;
+                border: 2px solid black;
+                background-image: linear-gradient(to right, rgba(255, 3, 3, 0.2), rgba(240, 14, 14, 0.5));
+                box-shadow: 10px 10px  gray;
+             
+                position: absolute;
+                right: calc(50% - 125px);
+                bottom: calc(50% - 125Px);
+            }
+
+            .circulo_blue{
+                width: 50px;
+                height: 50px;
+                border:2px solid black;
+                border-radius: 50px;
+                /*background-color: rgb(0 0 0/0.5);*/
+                background-image: linear-gradient(to right, rgba(18, 72, 221, 0.2), rgba(214, 27, 27, 0.5));
+                position: relative; 
+                           
+            }
+
+            .sup_izq1{ 
+                top: 0px;
+                left: 0px;
+             }
+
+             .sup_drcha1{
+                top: -25px;
+                right: -180px;
+            }
+
+            .sup_izq1{ 
+                top: 25px;
+                left: 25px;
+             }
+
+             .centro{ 
+                top: -9px;
+                left: 100px;
+             }
+
+             .abj_izq1{ 
+                top: 15px;
+                left: 25px;
+             }
+
+             .abj_drch1{ 
+                top: -40px;
+                right: -175px;
+             }
+
+           
+
+          
+
+        /*    .rectangulo{
+                width: 90%;
+                height: 120px;
+                border:2px solid black;
+                background-image: linear-gradient(to right, yellow, yellow,blue, green);
+            }*/
+            
+        </style>
+    </title>
+</head>
+<body>
+            <main>
+                
+                <div class="circulo_gris sup sup_izq"></div><div class="circulo_gris sup_drcha"></div> <div class=" circulo_gris ba_izq"></div><div class="circulo_gris ba_drcha"></div>
+                 <div class="cuadrado">
+                    <div class="circulo_blue sup_izq1"></div><div class="circulo_blue  sup_drcha1"></div><div class="circulo_blue  centro"></div><div class="circulo_blue abj_izq1"></div><div class="circulo_blue abj_drch1"></div>
+                 </div>
+                
+            </main>
+
+     
+
+        
+        
+        
+      
+       
+
+    
+</body>
+</html>
