@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+
+    <style>
+        #tabla2, #tabla1{
+            border-collapse: collapse;
+            margin: 0 auto;
+            width: 45%;
+            text-align: center;
+        }
+
+        #tabla2, th, #tabla2 td{
+                    border: 2px solid black;
+                    
+                    padding: 7px;
+                    width: 20%;
+        }
+        #tabla1, th, #tabla1 td{
+                    border: 2px solid black;
+                    
+                    padding: 7px;
+                    width: 20%;
+        }
+        #tabla2 .celda0{
+            border-style: none;
+        }
+
+        #tabla2 .celda0{
+            border-style: none;
+        }
+    </style>
+    
+</head>
+<body>
+    
+        <img src="/Ejemplos/Tabla1.png" alt="">
+        <hr>
+        
+        
+        
+        
+        <table id="tabla2">
+            <tr>
+                <td class="celda0"></td>
+                <th colspan="4">Caracteristicas</th>
+            </tr>
+            <tr id="fila1">
+            <th class="celda0"></th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Edad</th>
+            <th>Pais</th>
+        </tr>
+            <tr>
+                <th class="columna1" >Persona 1</th>
+                <td>53</td>
+                <td>155</td>
+                <td>33</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <th class="columna1" >Persona 2</th>
+                <td>83</td>
+                <td>175</td>
+                <td>44</td>
+                <td>Francia</td>
+            </tr>
+            <tr>
+                <th class="columna1">Persona 3</th>
+                <td>62</td>
+                <td>163</td>
+                <td>55</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <th class="columna1">Persona 4</th>
+                <td>71</td>
+                <td>83</td>
+                <td>62</td>
+                <td>Cuba</td>
+            </tr>
+        
+            <table id="tabla1">
+                <tr>
+                    <td class="celda0"></td>
+                    <th colspan="4">Caracteristicas</th>
+                </tr>
+                <tr id="fila1">
+                <th class="celda0"></th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>Edad</th>
+                <th>Pais</th>
+            </tr>
+                <tr>
+                    <th class="columna1" >Persona 1</th>
+                    <td>53</td>
+                    <td>155</td>
+                    <td>33</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <th class="columna1" >Persona 2</th>
+                    <td>83</td>
+                    <td colspan="2" rowspan="2">175</td>
+                   
+                    <td>Francia</td>
+                </tr>
+                <tr>
+                    <th class="columna1">Persona 3</th>
+                    <td>62</td>
+                    
+                    <td>España</td>
+                </tr>
+                <tr>
+                    <th class="columna1">Persona 4</th>
+                    <td>71</td>
+                    <td>83</td>
+                    <td>62</td>
+                    <td>Cuba</td>
+                </tr>
+            </table>
+        </table>
+    </p>
+</body>
+</html>

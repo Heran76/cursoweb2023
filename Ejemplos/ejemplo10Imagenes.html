@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+    <style>
+        
+        body{
+            text-align: center;
+            margin: 0 auto;
+        }
+        
+        img{
+            border-radius: 5%;
+            width: 50%;
+            padding: 10px;
+           
+        }
+
+        #img1{
+            border: 10px solid black;
+            filter:grayscale(0.5);
+            opacity: 0.5;
+        }
+      
+    </style>
+   
+</head>
+<body>
+    <h1>Imágenes</h1>
+    <h2>Imagenes en la misma carpeta</h2>
+    <p>
+        <img id="img1" src="circuitos-fondo-digital-degradado-azul-rojo_23-2148821701.jpg" alt="fondo tecnologico">
+    </p>
+   <h2> Imágenes en un nivel inferior</h2>
+   <p>
+    <img src="/img/render-3d-formacion-cientifica-lineas-puntos-conexion.jpg" alt="fondo">
+    <img src="/img/logos/logotipo_23-2148144452.jpg" alt="logos">
+   </p>
+   <h2>Imágenes en un nivel superior</h2>
+   <p>
+     <img src="../vector-fondo-tecnologia-patron-pixeles-blancos_53876-110863.jpg" alt="">
+   </p>
+   <h2>Imagenes en un servidor</h2>
+   <P>
+     <img src="https://picsum.photos/600/300" alt="imagenes aleatorias">.
+     <img src="https://picsum.photos/id/23/600/300" alt="imagenes aleatorias">
+     <img src="https://picsum.photos/id/23/600/300?blur=10" alt="imagenes aleatorias">
+     <img src="https://picsum.photos/id/30/600/300?grayscale" alt="imagenes aleatorias">
+    </P>
+   </P>
+</body>
+</html>

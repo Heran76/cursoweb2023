@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLAS</title>
+    <style>
+        #table1{
+            border: 3px solid black;
+            
+            font-size: 2em;
+            border-collapse: collapse;
+            text-align: center;
+            background-color: #FABADA;
+            width: 60%;
+            margin: 0 auto;
+        }
+        #table1 th. #table1 td{
+            border: 1px solid gray;
+            width: 33.33%;
+        }
+        #table1 tr:nth-child(odd){
+            background-color: rgb(209, 208, 208);
+        }
+
+        #tabla2{
+            width: 35%;
+            margin-left: 50px;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+        #tabla2 th, #tabla2 td{
+            border: 2px solid black;
+            width: 20%;
+           
+        }
+
+        .columna1{
+            font-size: 1.4em;
+        }
+
+        #fila1 th{
+            padding: 7px;
+        }
+        #tabla2 .celda0{
+          border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <H1>TABLAS</H1>
+    <H2>LAS TABLAS SE UTILIZAN PARA TABULAR DATOS, ¡¡¡ NO PARA DISEÑAR WEB!!!</H2>
+    <P>
+      Etiquetas importantes
+      <ul>
+        <li>Tabla (para crear un tabla)</li>
+        <li>Tr para crear un fila Tabla Row</li>
+        <li>th para crear la fila de cabecera Tabla head por defecto aparacen en negrita y centradas</li>
+        <li>td para crear una celda de fila Table Data</li>
+        <li>caption Para poner titulo a una tabla</li>
+        <hr>
+        <P>Etiqutas añadidas en Html5</P>
+        <li> thead Agrupacion de cabecera</li>
+        <li> tbody Cuerpo de la tabla</li>
+        <li>tfood Agrupacion del pie</li>
+      </ul>
+    </P>
+    <h2>Quiero crear una tabla de 4 filas por tres columas con cabecera
+    </h2>
+    <table id="table1">
+        <tr>
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+        </tr>
+        <tr>
+        <td>A1</td>
+        <td>A2</td>
+        <td>A3</td>
+       </tr>
+       <tr>
+        <td>B1</td>
+        <td>B2</td>
+        <td>B3</td>
+       </tr>
+       <tr>
+        <td>C1</td>
+        <td>C2</td>
+        <td>C3</td>
+       </tr>
+    </table>
+    <hr>
+    <h2>Quiero una tabla como la siguiente imagen:</h2>
+    <p>
+        <img src="/Ejemplos/Tabla1.png" alt="">
+        <hr>
+        
+        
+        
+        
+        <table id="tabla2">
+            <tr id="fila1">
+            <th class="celda0"></th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Edad</th>
+            <th>Pais</th>
+        </tr>
+            <tr>
+                <th class="columna1" >Persona 1</th>
+                <td>53</td>
+                <td>155</td>
+                <td>33</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <th class="columna1" >Persona 2</th>
+                <td>83</td>
+                <td>175</td>
+                <td>44</td>
+                <td>Francia</td>
+            </tr>
+            <tr>
+                <th class="columna1">Persona 3</th>
+                <td>62</td>
+                <td>163</td>
+                <td>55</td>
+                <td>España</td>
+            </tr>
+            <tr>
+                <th class="columna1">Persona 4</th>
+                <td>71</td>
+                <td>83</td>
+                <td>62</td>
+                <td>Cuba</td>
+            </tr>
+        </table>
+    </p>
+</body>
+</html>
